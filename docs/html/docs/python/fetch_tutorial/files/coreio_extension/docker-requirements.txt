@@ -4,7 +4,7 @@ bosdyn-api==3.2.0
     #   bosdyn-core
 bosdyn-client==3.2.0
     # via -r requirements.txt
-bosdyn-core==3.2.0
+bosdyn-core==3.3.2
     # via bosdyn-client
 certifi==2022.5.18.1
     # via requests
