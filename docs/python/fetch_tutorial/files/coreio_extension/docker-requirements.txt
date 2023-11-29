@@ -1,4 +1,4 @@
-bosdyn-api==3.2.0
+bosdyn-api==3.3.2
     # via
     #   bosdyn-client
     #   bosdyn-core
