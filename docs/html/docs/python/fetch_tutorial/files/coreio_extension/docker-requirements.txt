@@ -6,11 +6,11 @@ bosdyn-client==3.2.0
     # via -r requirements.txt
 bosdyn-core==3.2.0
     # via bosdyn-client
-certifi==2022.5.18.1
+certifi==2022.12.7
     # via requests
 charset-normalizer==2.0.12
     # via requests
-deprecated==1.2.13
+deprecated==1.3.1
     # via
     #   bosdyn-client
     #   bosdyn-core
@@ -23,18 +23,18 @@ numpy==1.19.4
     # via bosdyn-client
 protobuf==3.19.4
     # via bosdyn-api
-pyjwt==2.4.0
+pyjwt==2.13.0
     # via bosdyn-client
-requests==2.27.1
+requests==2.34.2
     # via bosdyn-client
 six
     #==1.16.0 (conflicts with base image)
     # via grpcio
-urllib3==1.26.9
+urllib3==1.26.20
     # via requests
 wrapt
     #==1.14.1 (conflicts with base image)
     # via deprecated
 Pillow==9.4.0
-opencv-python==4.6.0.66
+opencv-python==4.14.0.94
     # via network_compute_server.py
