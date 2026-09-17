@@ -39,7 +39,7 @@ setuptools.setup(
         'grpcio',
         'pyjwt',
         'numpy',
-        'Deprecated~=1.2.10',
+        'Deprecated~=1.3.1',
         'requests>=2.26.0',
     ],
     classifiers=[

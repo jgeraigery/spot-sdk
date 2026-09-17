@@ -32,7 +32,7 @@ setuptools.setup(
     },
     packages=setuptools.find_packages('src'),
     package_dir={'': 'src'},
-    install_requires=['bosdyn-api=={}'.format(SDK_VERSION), 'Deprecated~=1.2.10'],
+    install_requires=['bosdyn-api=={}'.format(SDK_VERSION), 'Deprecated~=1.3.1'],
     python_requires=">=3.6",
     classifiers=[
         "Programming Language :: Python :: 3.7",
